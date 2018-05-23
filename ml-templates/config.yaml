@@ -217,6 +217,6 @@ allowed_tabs:
   tasks: ""
   history: ""
   jobs: ""
-  lib: "Libraries"
+  install: "Install libraries"
   status: ""
   sources: ""
