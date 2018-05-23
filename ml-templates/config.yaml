@@ -186,6 +186,7 @@ spec:
   - isLibDir: false
     name: training
     clusterStorage: {{ .storage.value }}
+    readOnly: true
   - gitRepo:
       repository: {{ gitRepo .src.value }}
       accountId: '{{ .src.accountId }}'
