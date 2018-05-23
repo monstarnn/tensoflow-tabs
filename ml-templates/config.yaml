@@ -1,6 +1,6 @@
 kind: MLApp
 metadata:
-  name: tensorflow
+  name: tensorflow-tabs
 spec:
   package_manager: "pip{{.python_version.value}}"
   default_mount_path: "/notebooks"
@@ -212,5 +212,10 @@ spec:
     subPath: code
     clusterStorage: {{ .storage.value }}
 allowed_tabs:
-  tab1: Tab 1
-  tab2: Tab 2
+  summary: ""
+  tasks: ""
+  history: ""
+  jobs: ""
+  lib: "Libraries"
+  status: ""
+  sources: ""
