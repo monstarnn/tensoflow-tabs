@@ -217,6 +217,7 @@ allowed_tabs:
   tasks: ""
   history: ""
   jobs: ""
-  install: "Install libraries"
+  install: "Libraries"
   status: ""
   sources: ""
+  jupyter: ""
